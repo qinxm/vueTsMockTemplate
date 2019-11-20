@@ -9,7 +9,7 @@
           <el-card class="register-card">
             <h1 class="text-center register-title">
               <img :src="logoSrc" class="logo-img">
-              每日优鲜供应商平台
+              后台管理平台
             </h1>
             <h3>注册</h3>
             <el-form
@@ -112,7 +112,6 @@
 <script lang="ts">
 import { Component, Vue, Watch } from "vue-property-decorator";
 import { Route } from "vue-router";
-import { Dictionary } from "vuex";
 import {
   isValidUsername,
   isValidPassword,

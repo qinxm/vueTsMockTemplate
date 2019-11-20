@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    欢迎登录每日优鲜供应商平台
+    欢迎登录后台管理平台
   </div>
 </template>
 

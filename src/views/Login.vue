@@ -9,7 +9,7 @@
           <el-card class="login-card">
             <h1 class="text-center login-title">
               <img :src="logoSrc" class="logo-img">
-              每日优鲜供应商平台
+              后台管理平台
             </h1>
             <el-form
               ref="loginForm"
@@ -70,7 +70,7 @@
                 @click.native.prevent="handleLogin"
               >登 录</el-button>
               <div style="text-align: center;">
-                <el-button type="text" @click="toRegister">注册成为供应商</el-button>
+                <el-button type="text" @click="toRegister">注册成为后台管理</el-button>
               </div>
             </el-form>
           </el-card>

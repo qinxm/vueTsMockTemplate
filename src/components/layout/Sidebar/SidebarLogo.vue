@@ -43,7 +43,7 @@ export default class extends Vue {
   @Prop({ required: true }) private collapse!: boolean
   private logoUrl = require('../../../assets/logo.png')
 
-  private title = '供应商平台'
+  private title = '后台管理平台'
 }
 </script>
 

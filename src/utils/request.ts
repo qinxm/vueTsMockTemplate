@@ -65,7 +65,7 @@ function login() {
 }
 function goSupplyInfoPage() {
   MessageBox.alert(
-    '供应商信息未补充完成，将跳转信息补充页面!',
+    '后台管理信息未补充完成，将跳转信息补充页面!',
     {
       showClose: false,
       confirmButtonText: '确定',

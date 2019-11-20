@@ -3,7 +3,7 @@
     <!-- <div style="height: 40px; font-size:14px;">
       <a  href="/">帮助</a>
     </div> -->
-    <div>Copyright © 2014-2019 每日优鲜 - Powered By MISSFRESH V1.0.0 </div>
+    <div>Copyright © 2014-2019  - Powered By MISSFRESH V1.0.0 </div>
   </div>
 </template>
 <style lang="scss" scoped>

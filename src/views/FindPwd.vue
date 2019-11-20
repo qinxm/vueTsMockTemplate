@@ -9,7 +9,7 @@
           <el-card class="register-card">
             <h1 class="text-center register-title">
               <img :src="logoSrc" class="logo-img">
-              每日优鲜供应商平台
+              后台管理平台
             </h1>
             <h3>找回密码</h3>
             <el-form
