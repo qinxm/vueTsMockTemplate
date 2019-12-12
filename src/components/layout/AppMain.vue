@@ -1,13 +1,15 @@
 <template>
-  <section class="app-main" ref="SrmAppMain">
-    <transition
-      name="fade-transform"
-      mode="out-in"
-    >
-      <keep-alive :include="cachedViews">
-        <router-view />
-      </keep-alive>
-    </transition>
+  <section class="app-main" >
+    <div class="app-main-content" ref="SrmAppMain">
+      <transition
+        name="fade-transform"
+        mode="out-in"
+      >
+        <keep-alive :include="cachedViews">
+          <router-view />
+        </keep-alive>
+      </transition>
+    </div>
   </section>
 </template>
 
@@ -61,7 +63,14 @@ export default class extends Vue {
   }
 
   .fixed-header+.app-main {
-    padding-top: 108px;
+    padding: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    .app-main-content {
+      margin-top: 108px;
+      height: calc(100vh - 108px);
+      overflow: auto;
+    }
   }
 }
 </style>
